@@ -48,5 +48,24 @@ public class Move : MonoBehaviour
         {
             jump.AddForce(Vector2.up * strengthJump, ForceMode2D.Impulse);
         }
+
+        //verifica si cae por abajo del piso
+        if(transform.position.y <= -9f)
+        {
+            //Barra de vida en 0
+            GetComponent<Life>().life = 0;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Vida"))
+        {
+            //Aumenta barra de vida
+            if (gameObject.GetComponent<Life>().life <= 90f) {
+                gameObject.GetComponent<Life>().life += 10f;
+                Destroy(collision.gameObject);
+            }            
+        }
     }
 }
