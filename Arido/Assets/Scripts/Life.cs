@@ -7,6 +7,7 @@ public class Life : MonoBehaviour
 {
     public float life = 100f;
     public Slider lifeBar;
+    private GameObject _menu;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class Life : MonoBehaviour
         if (life <= 0)
         {
             Destroy(gameObject);
+            GameObject.Find("Menu").transform.GetChild(2).gameObject.SetActive(true);
         }
     }
 }
