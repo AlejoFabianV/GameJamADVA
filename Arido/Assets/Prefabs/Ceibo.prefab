@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1479077614936708610}
   - component: {fileID: 1479077614936708608}
   m_Layer: 0
-  m_Name: Cherry
+  m_Name: Ceibo
   m_TagString: Vida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
