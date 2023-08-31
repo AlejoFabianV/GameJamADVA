@@ -9,7 +9,6 @@ public class DamageEnviroment : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            Debug.Log("damage");
             //Destroy(collision.gameObject);
             collision.gameObject.GetComponent<Life>().life -= 10f;
         }
