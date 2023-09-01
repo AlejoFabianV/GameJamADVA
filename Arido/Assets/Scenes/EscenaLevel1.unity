@@ -1264,7 +1264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540816479}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.0019, y: -0.0016, z: 0}
+  m_LocalPosition: {x: 0.194, y: -0.03, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2245,18 +2245,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 693894432}
     m_Modifications:
-    - target: {fileID: -6072044019630134301, guid: 33191bf8e6a17cd4b9552a5e23ee2c60, type: 3}
-      propertyPath: m_FlipX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6072044019630134301, guid: 33191bf8e6a17cd4b9552a5e23ee2c60, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -6072044019630134301, guid: 33191bf8e6a17cd4b9552a5e23ee2c60, type: 3}
-      propertyPath: m_SortingOrder
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 6320079399198834873, guid: 33191bf8e6a17cd4b9552a5e23ee2c60, type: 3}
       propertyPath: m_Name
       value: Lagarto
@@ -3048,65 +3036,6 @@ MonoBehaviour:
   controlerFloor: {fileID: 188827443}
   distance: 0.52
   moveRight: 1
---- !u!114 &1415275543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415275540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 270091218e5d1eb4db4220845cfb30cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1415275544
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415275540}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.09570289, y: -0.110619284}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 0.64, y: 0.64}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.3468609, y: 0.17398669}
-  m_EdgeRadius: 0
---- !u!50 &1415275545
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415275540}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1426895711
 GameObject:
   m_ObjectHideFlags: 0
@@ -13208,18 +13137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1657597934}
     m_Modifications:
-    - target: {fileID: 1479077614936708608, guid: 2e7545976f41f3d4ca7b6593da3d7fe2, type: 3}
-      propertyPath: m_Radius
-      value: 0.11501471
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479077614936708608, guid: 2e7545976f41f3d4ca7b6593da3d7fe2, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.009213448
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479077614936708608, guid: 2e7545976f41f3d4ca7b6593da3d7fe2, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.03272327
-      objectReference: {fileID: 0}
     - target: {fileID: 1479077614936708611, guid: 2e7545976f41f3d4ca7b6593da3d7fe2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13343,34 +13260,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3189684925013869049, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869050, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 962feddba292d4b49a1b10379a9c5f6d, type: 3}
-    - target: {fileID: 3189684925013869050, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_SpriteSortPoint
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869051, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Size.x
-      value: 0.123265095
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869051, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Size.y
-      value: 0.22029611
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869051, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.03585429
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869051, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.029932639
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189684925013869051, guid: d849f2104b9b0654da8d6e16d1b69dff, type: 3}
-      propertyPath: m_Direction
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
